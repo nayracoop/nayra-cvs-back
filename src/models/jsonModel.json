@@ -1,0 +1,181 @@
+{
+    "slug":"romi-gomez",
+    "name": "Romina", 
+    "lastname": "Gomez",
+    "role": "UX Developer",
+    "profile": "Hi! I’m Romina, a Multimedia Artist and User Experience Developer specialized in developing interactive and engaging user-centered interfaces. I’m really passionate about technology , design and especially the idea of both fields working together to improve the way people interact with modern products.",
+    "technologies": [
+			{
+				"to": "code",
+				"name":"CSS3",
+				"logo":"css3"
+			},
+			{
+				"to": "code",
+				"name":"HTML5",
+				"logo":"html"
+			},
+			{
+				"to": "code",
+				"name":"ES6",
+				"logo":"es6"
+			},
+			{
+				"to": "code",
+				"name":"CSS3",
+				"logo":"css3"
+			},
+			{
+				"to": "code",
+				"name":"React",
+				"logo":"react"
+			},
+			{
+				"to": "code",
+				"name":"Vue",
+				"logo":"vue"
+			},
+			{
+				"to": "design",
+				"name":"Adobe",
+				"logo":"adobe"
+			},
+			{
+				"to": "design",
+				"name":"Figma",
+				"logo":"figma"
+			},
+			{
+				"to": "design",
+				"name":"InVision",
+				"logo":"invision"
+			},
+			{
+				"to": "team",
+				"name":"Jira",
+				"logo":"jira"
+			},
+			{
+				"to": "team",
+				"name":"Github",
+				"logo":"github"
+			}
+		],
+    "experience": [
+		{
+            "experienceType":"work",
+            "title": "UX Developer",
+            "from":"2018",
+            "to": "Present", 
+            "institution": "Nayra",
+            "place": "Buenos Aires",
+            "description": "In nayra I work as a Frontend designer and developer for different local and international clients. Depending on the project I switch between React or Vue development and Unity for VR and AR projects.",
+            "technologies": [
+                {
+                    "to": "code",
+                    "name":"CSS3",
+                    "logo":"css3"
+                },
+                {
+                    "to": "code",
+                    "name":"HTML5",
+                    "logo":"html"
+                },
+                {
+                    "to": "code",
+                    "name":"ES6",
+                    "logo":"es6"
+                },
+                {
+                    "to": "code",
+                    "name":"React",
+                    "logo":"react"
+                },
+                {
+                    "to": "code",
+                    "name":"Vue",
+                    "logo":"vue"
+                },
+                {
+                    "to": "design",
+                    "name":"Adobe",
+                    "logo":"adobe"
+                },
+                {
+                    "to": "design",
+                    "name":"Figma",
+                    "logo":"figma"
+                },
+                {
+                    "to": "design",
+                    "name":"InVision",
+                    "logo":"invision"
+                },
+                {
+                    "to": "team",
+                    "name":"Jira",
+                    "logo":"jira"
+                },
+                {
+                    "to": "team",
+                    "name":"Github",
+                    "logo":"github"
+                }
+            ],
+            "percentaje": ""
+        },
+        {
+            "experienceType":"work",
+            "title": "UX Designer",
+            "from":"2016",
+            "to": "2018", 
+            "institution": "Intive",
+            "place": "Buenos Aires",
+            "description": "<p>At intive Argentina I was part of the Design and UX team. I started as a UI designer, working with several USA based startups to develop their MVP. </p> <p>For about two years I participated in different projects exploring many roles inside the team.I worked on research, analysis, developing and testing and actively got involved in the development of a design methodology that could be integrated with agile development flow in small teams. Doing that I had the opportunity to explore and implement design thinking methodologies and to take part in different stages of UX design process.</p> <p>We also worked alongside the marketing team to perform a successful rebranding on the company. My specific tasks on this project were to design and develop marketing digital pieces such as campaign landing pages, institucional sites, email marketing templates, wordpress blogs,  among others. The technologies that I used for that were HTML, CSS and Javascript. </p> <p>During the last six months there I worked full time for a US company called Dropcar, which was a valet parking booking app at that time. I was part of a small team that designed and proposed a plan to migrate progressively to a user centered design product. As the business needs demanded to continue developing functionality, we started developing a Style guide for them to be able to achieve consistency between different screens and products. We also worked to modernize UI layouts with newer components.</p>",
+
+            "technologies": [
+                {
+                    "to": "code",
+                    "name":"CSS3",
+                    "logo":"css3"
+                },
+                {
+                    "to": "code",
+                    "name":"HTML5",
+                    "logo":"html"
+                },
+                {
+                    "to": "code",
+                    "name":"ES6",
+                    "logo":"es6"
+                },
+                {
+                    "to": "design",
+                    "name":"Adobe",
+                    "logo":"adobe"
+                },
+                {
+                    "to": "design",
+                    "name":"Figma",
+                    "logo":"figma"
+                },
+                {
+                    "to": "design",
+                    "name":"InVision",
+                    "logo":"invision"
+                },
+                {
+                    "to": "team",
+                    "name":"Jira",
+                    "logo":"jira"
+                },
+                {
+                    "to": "team",
+                    "name":"Github",
+                    "logo":"github"
+                }
+            ],
+            "percentaje": ""
+		}            
+    ]
+}

@@ -25,21 +25,33 @@ partnersController.createPartner = async (req, res) =>{
     console.log(newPartner)
 }
 
-partnersController.getPartner = async(req, res) => {
+partnersController.getPartner = async (req, res) => {
     const partner = await Partner.findOne({ slug: req.params.slug })
     res.json(partner)
 }
 
-partnersController.getPartnerById = async(req, res) => {
+partnersController.getPartnerById = async (req, res) => {
     const partner = await Partner.findById( req.params.id )
     res.json(partner)
 }
 
-// partnersController.updatePartner = (req, res) => {
-//     res.json({
-//         message: "Partner updated"
-//     })
-// }
+partnersController.updatePartner = async (req, res) => {
+    const { name, slug, lastname, role, contactLinks, profile, technologies, experiences, languages } = req.body
+
+    await Partner.findOneAndUpdate(req.params.id, {
+        name, 
+        slug,
+        lastname, 
+        role, 
+        contactLinks, 
+        profile, 
+        technologies, 
+        experiences, 
+        languages
+    });
+
+    res.json({message: 'Partner updated!'})
+}
 
 
 partnersController.deletePartner = async(req, res) => {

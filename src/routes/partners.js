@@ -1,7 +1,7 @@
 const { Router } = require ('express')
 const router = Router()
 
-const { getPartners, createPartner, getPartnerById, getPartner, deletePartner} = require('../controllers/partners.controller')
+const { getPartners, createPartner, getPartnerById, getPartner, deletePartner, updatePartner} = require('../controllers/partners.controller')
 
 router.route('/') 
     .get(getPartners)
@@ -10,11 +10,10 @@ router.route('/')
 router.route('/crud/:id')
     .get(getPartnerById)
     .delete(deletePartner)
+    .put(updatePartner)
 
 router.route('/:slug')
     .get(getPartner)
-    // .post(createPartner)
-    // .put(updatePartner)
 
 
 module.exports = router
